@@ -6809,7 +6809,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   box-shadow: none;
   }
 .modal-backdrop {
-  background-color: #243342;
+  background-color: #373737;
   }
 .modal-backdrop.in {
   filter: alpha(opacity=95);
