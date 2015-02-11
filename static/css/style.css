@@ -1542,6 +1542,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   display: table;
   width: 100%;
 }
+@media (max-width: 992px) {
+  .sponsors img {
+    max-width: 200px !important;
+  }
+}
 @media (max-width: 767px) {
   .sponsors {
     display: block;
@@ -1553,6 +1558,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
   .sponsors img {
     margin-bottom: 50px;
+    max-width: 300px !important;
   }
   .sponsorship-c {
     padding-bottom: 75px;
@@ -1723,4 +1729,13 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 
 .modal-dialog{
     z-index:100000;
+}
+
+/**
+ * Prize Trophies
+ * */
+.prizes {
+  font-size: 30px;
+  padding-bottom: 12px;
+  color: #373737;
 }
