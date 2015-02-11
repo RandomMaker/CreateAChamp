@@ -1730,7 +1730,6 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .modal-dialog{
     z-index:100000;
 }
-
 /**
  * Prize Trophies
  * */
@@ -1745,4 +1744,19 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .pathways {
   max-width: 250px;
   padding-bottom: 50px;
+}
+/**
+ * Registration Modal
+ * */
+.modal-dialog {
+  width: 800px;
+}
+.modal .register {
+  background-color: #f65f00;
+}
+.modal .modal-footer {
+  text-align: center;
+}
+.fileinput .btn-primary {
+  background-color: #f65f00;
 }
