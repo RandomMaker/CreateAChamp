@@ -6,10 +6,11 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
-router.post('/register', function(req, res){
+// Registration form from modal
+router.post('/', function(req, res){
 	var firstName = req.body.firstName;
 	var lastName = req.body.lastName;
-	var html = 'Hello ' + firstName + '!<br>' +
+	var html = 'Hello ' + firstName + '!<br>' + lastName +
 		'<a href="/">Try again.</a>';
 	res.send(html);
 });
