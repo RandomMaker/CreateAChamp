@@ -10,6 +10,15 @@ var users = require('./routes/users');
 
 var app = express();
 
+// Modal Forms
+app.post('/', function(req, res){
+    var firstName = req.body.firstName;
+    var lastName = req.body.lastName;
+    var html = 'Hello ' + firstName + '!<br>' +
+        '<a href="/">Try again.</a>';
+    res.send(html);
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hjs');
@@ -56,6 +65,5 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-
 
 module.exports = app;
