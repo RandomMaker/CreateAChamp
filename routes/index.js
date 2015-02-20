@@ -8,11 +8,10 @@ router.get('/', function(req, res) {
 
 // Registration form from modal
 router.post('/', function(req, res){
-	var firstName = req.body.firstName;
-	var lastName = req.body.lastName;
-	var html = 'Hello ' + firstName + '!<br>' + lastName +
-		'<a href="/">Try again.</a>';
-	res.send(html);
+	var fullName = req.body.fullName;
+	var email = req.body.email;
+	var club = req.body.club;
+	var teamMembers = req.body.teamMembers;
 });
 
 module.exports = router;

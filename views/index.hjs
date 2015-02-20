@@ -32,64 +32,93 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close fui-cross" data-dismiss="modal" aria-hidden="true"></button>
-						<h4 class="modal-title" id="signUpLabel">Registration</h4>
+						<h4 class="modal-title" id="signUpLabel">Registration Form</h4>
 					</div>
 					<div class="modal-body">
-						<p>Registering for the event can be done through this form or through one of our event representatives. We want to learn more about you!</p>
+						<p>We can only have so many people attend the competition. By signing up for the event, your application will be reviewed and an e-mail will be sent out confirming your acceptance.</p>
 						<br />
 						<table class="table table-striped">
 							<thead>
 								<tr>
-									<th>Registration Deadlines</th>
+									<th>Date</th>
+									<th>Deadline</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Online Registration</td>
-									<td>March 15th, 2015</td>
+									<td>February 12th, 2015</td>
+									<td>Registration Deadline</td>
 								</tr>
 								<tr>
-									<td>Representative Registration</td>
-									<td>March 10th, 2015</td>
+									<td>February 14th, 2015</td>
+									<td>Acceptances Sent Out</td>
 								</tr>
 							</tbody>
 						</table>
-						<br />
 						<div class="row">
 							<form role="form" action="/" method="post" id="registrationForm">
 								<div class="col-sm-8 col-sm-offset-2">
 									<div class="form-group">
-										<label for="firstName">First Name:</label>
-										<input type="text" class="form-control" id="firstName" name="firstName">
-									</div><br />
-									<div class="form-group">
-										<label for="lastName">Last Name:</label>
-										<input type="text" class="form-control" id="lastName" name="lastName">
-									</div><br />
+										<label for="fullName">Full Name:</label>
+										<input type="text" class="form-control" id="fullName" name="fullName">
+									</div>
+									<br />
 									<div class="form-group">
 										<label for="email">E-mail Address:</label>
 										<input type="email" class="form-control" id="email" name="email">
-									</div><br />
+									</div>
+									<br />
 									<div class="form-group">
-										<label for="gain">What do you hope to gain from this competition?</label>
-										<textarea class="form-control" rows="5" id="gain" name="gain"></textarea>
-									</div><br />
+										<label for="club">Which club are you part of?</label><br />
+										<div class="btn-group">
+											<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+											None <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="#">Adhawk Laurier</a></li>
+												<li><a href="#">DECA Laurier</a></li>
+												<li><a href="#">Enactus Laurier</a></li>
+												<li><a href="#">E-Business Laurier</a></li>
+												<li><a href="#">HRN Laurier</a></li>
+												<li><a href="#">Laurier Accounting Association</a></li>
+												<li><a href="#">Laurier Badminton Club</a></li>
+												<li><a href="#">Laurier Consulting Club</a></li>
+												<li><a href="#">Laurier Marketing Association</a></li>
+												<li><a href="#">Laurier Sales Association</a></li>
+												<li><a href="#">SBESS</a></li>
+												<li><a href="#">Sports Management Laurier</a></li>
+												<li><a href="#">Startup Laurier</a></li>
+												<li><a href="#">The Link</a></li>
+												<li><a href="#">Xlerate</a></li>
+												<li><a href="#">Women In Leadship Laurier</a></li>
+											</ul>
+										</div>
+									</div>
+									<br />
 									<div class="form-group">
-										<label for="gain">Names of Team Members (if you wish to enter as a team):</label>
-										<textarea class="form-control" rows="5" id="teamMembers" name="teamMembers"></textarea>
-									</div><br />
+										<label for="makesYou">What makes you awesome?</label>
+										<textarea class="form-control" rows="6" id="teamMembers" name="teamMembers"></textarea>
+									</div>
+									<br />
+									<div class="form-group">
+										<label for="teamMembers">Team Member Names (if you wish to enter as a team):</label>
+										<textarea class="form-control" rows="4" id="teamMembers" name="teamMembers"></textarea>
+									</div>
+									<br />
 									<div class="form-group">
 										<label for="resume">Resume (Optional):</label>
-									  <div class="fileinput fileinput-new" data-provides="fileinput">
-									    <span class="btn btn-primary btn-embossed btn-file">
-									      <span class="fileinput-new"><span class="fui-upload"></span>  Attach File</span>
-									      <span class="fileinput-exists"><span class="fui-gear"></span>  Change</span>
-									      <input type="file" name="...">
-									    </span>
-									    <span class="fileinput-filename"></span>
-									    <a href="#" class="close fileinput-exists" data-dismiss="fileinput" style="float: none">×</a>
-									  </div>
+										<div class="fileinput fileinput-new" data-provides="fileinput">
+											<span class="btn btn-primary btn-embossed btn-file">
+											<span class="fileinput-new"><span class="fui-upload"></span>  Attach File</span>
+											<span class="fileinput-exists"><span class="fui-gear"></span>  Change</span>
+											<input type="file" name="...">
+											</span>
+											<span class="fileinput-filename"></span>
+											<a href="#" class="close fileinput-exists" data-dismiss="fileinput" style="float: none">×</a>
+										</div>
 									</div>
+									<br />
+									<p>By registering for the event you agree to </p>
 								</div>
 							</form>
 						</div>
@@ -126,7 +155,7 @@
 						<div class="col-sm-6">
 							<h3>An opportunity for Gold</h3>
 							<p>Badminton Canada is launching a nation-wide program called Pathways. The aim of this program is to engage and enrich those who play the sport across Canada. Other programs such as Pathways have proven that the structure it brings is key to the development of Olympic champions.</p>
-							<p>Project Gold is a competition that brings together the best and brightest students and professionals. Put your skills to the test in a fun and interactive environment that is for a national cause.</p>
+							<p>Project Gold is a competition that brings together the best and brightest students. We want to put your skills to the test in a stimulating environment for a national cause.</p>
 							<div class="btns">
 								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
 							</div>
@@ -182,8 +211,8 @@
 							<div class="col-sm-6 aligment">
 								<h3>Competition Overview</h3>
 								<p>Project Gold is not your traditional case competition. We've designed it to be engaging and use more than just your business analyzing skills.</p>
-								<p>During the event day you will work with your groups to develop a proposal that target specific aspects of Badminton Canada's marketing initiatives. If you don't have a group coming in, do not worry, we will form one for you.</p>
-								<p>The case will be released prior to the event date and you will be allowed to work on it ahead of time. We encourage you to look over it at minimum so that you have a good grasp.</p>
+								<p>During the event day you will work with your groups to develop a proposal that target specific aspects of Badminton Canada's marketing initiatives.</p>
+								<p>The case will be released 1 week prior to the event date and can be reviewed and worked on ahead of time. A presentation displaying your results for all the components is expected as the end result.</p>
 								<br />
 								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
 							</div>
@@ -198,31 +227,31 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td>8:00 AM</td>
-											<td>Registration Opens</td>
-										</tr>
-										<tr>
-											<td>9:30 AM</td>
-											<td>Complimentary Breakfast</td>
-										</tr>
-										<tr>
 											<td>10:00 AM</td>
-											<td>Competition Overview and Rules</td>
+											<td>Registration Opens</td>
 										</tr>
 										<tr>
 											<td>11:00 AM</td>
 											<td>Guest Speaker</td>
 										</tr>
 										<tr>
-											<td>4:00 PM</td>
+											<td>12:30 PM</td>
+											<td>Case Work Time</td>
+										</tr>
+										<tr>
+											<td>1:00 PM</td>
+											<td>Lunch Is Available</td>
+										</tr>
+										<tr>
+											<td>5:00 PM</td>
 											<td>Semi-Finals Judging</td>
 										</tr>
 										<tr>
-											<td>5:30 PM</td>
+											<td>6:30 PM</td>
 											<td>Finals Presentations</td>
 										</tr>
 										<tr>
-											<td>7:30 PM</td>
+											<td>8:00 PM</td>
 											<td>Closing Ceremonies and Remarks</td>
 										</tr>
 									</tbody>
@@ -352,10 +381,6 @@
 								<div class="fui-facebook"></div>
 								<div class="fui-facebook"></div>
 							</a>
-							<a href="#">
-								<div class="fui-linkedin"></div>
-								<div class="fui-linkedin"></div>
-							</a>
 						</div>
 						<h3>Contact Us</h3>
 						<p>Get in touch with us. We’d love to hear from you!<br/> We’re available via e-mail and all major social media platforms.</p>
@@ -365,7 +390,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- Load Javascript Files -->
+			<!-- Load Javascript Files and Scripts -->
 			<script>
 				function submitForm(){
 					document.getElementById("registrationForm").submit();
