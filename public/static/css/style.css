@@ -1772,3 +1772,16 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .fileinput .btn-primary {
   background-color: #f65f00;
 }
+/**
+ * Positions
+ * */
+ .positions .btn-primary {
+  background-color: #f65f00;
+ }
+ .positions ul {
+  font-size: 18px;
+  color: #373737;
+ }
+ .positions li {
+  line-height: 38px;
+ }
