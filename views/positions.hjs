@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="flat-ui/bootstrap/css/bootstrap.css">
+		<!-- Flat UI Pro -->
+		<link rel="stylesheet" href="flat-ui/css/flat-ui-pro.css">
+		<link rel="stylesheet" href="common-files/css/icon-font.css">
+		<!-- Font Awesome Icons -->
+		<link rel="stylesheet" href="common-files/font-awesome-4.3.0/css/font-awesome.min.css">
+		<!-- end -->
+		<link rel="stylesheet" href="common-files/css/animations.css">
+		<link rel="stylesheet" href="static/css/style.css">
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+		<!--[if lt IE 9]>
+		<script src="common-files/js/vendor/html5shiv.js"></script>
+		<script src="common-files/js/vendor/respond.min.js"></script>
+		<![endif]-->
+		<title>{{ title }}</title>
+	</head>
+	<body>
+		<!-- Signup / Registration Form Modal -->
+		<div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="signUpLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close fui-cross" data-dismiss="modal" aria-hidden="true"></button>
+						<h4 class="modal-title" id="signUpLabel">Registration Form</h4>
+					</div>
+					<div class="modal-body">
+						<p>We can only have so many people attend the competition. By signing up for the event, your application will be reviewed and an e-mail will be sent out confirming your acceptance.</p>
+						<br />
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>Date</th>
+									<th>Deadline</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>February 12th, 2015</td>
+									<td>Registration Deadline</td>
+								</tr>
+								<tr>
+									<td>February 14th, 2015</td>
+									<td>Acceptances Sent Out</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="row">
+							<form role="form" action="/" method="post" id="registrationForm">
+								<div class="col-sm-8 col-sm-offset-2">
+									<div class="form-group">
+										<label for="fullName">Full Name:</label>
+										<input type="text" class="form-control" id="fullName" name="fullName">
+									</div>
+									<br />
+									<div class="form-group">
+										<label for="email">E-mail Address:</label>
+										<input type="email" class="form-control" id="email" name="email">
+									</div>
+									<br />
+									<div class="form-group">
+										<label for="club">Which club are you part of?</label><br />
+										<div class="btn-group">
+											<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+											None <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="#">Adhawk Laurier</a></li>
+												<li><a href="#">DECA Laurier</a></li>
+												<li><a href="#">Enactus Laurier</a></li>
+												<li><a href="#">E-Business Laurier</a></li>
+												<li><a href="#">HRN Laurier</a></li>
+												<li><a href="#">Laurier Accounting Association</a></li>
+												<li><a href="#">Laurier Badminton Club</a></li>
+												<li><a href="#">Laurier Consulting Club</a></li>
+												<li><a href="#">Laurier Marketing Association</a></li>
+												<li><a href="#">Laurier Sales Association</a></li>
+												<li><a href="#">SBESS</a></li>
+												<li><a href="#">Sports Management Laurier</a></li>
+												<li><a href="#">Startup Laurier</a></li>
+												<li><a href="#">The Link</a></li>
+												<li><a href="#">Xlerate</a></li>
+												<li><a href="#">Women In Leadship Laurier</a></li>
+											</ul>
+										</div>
+									</div>
+									<br />
+									<div class="form-group">
+										<label for="makesYou">What makes you awesome?</label>
+										<textarea class="form-control" rows="6" id="teamMembers" name="teamMembers"></textarea>
+									</div>
+									<br />
+									<div class="form-group">
+										<label for="teamMembers">Team Member Names (if you wish to enter as a team):</label>
+										<textarea class="form-control" rows="4" id="teamMembers" name="teamMembers"></textarea>
+									</div>
+									<br />
+									<div class="form-group">
+										<label for="resume">Resume (Optional):</label>
+										<div class="fileinput fileinput-new" data-provides="fileinput">
+											<span class="btn btn-primary btn-embossed btn-file">
+											<span class="fileinput-new"><span class="fui-upload"></span>  Attach File</span>
+											<span class="fileinput-exists"><span class="fui-gear"></span>  Change</span>
+											<input type="file" name="...">
+											</span>
+											<span class="fileinput-filename"></span>
+											<a href="#" class="close fileinput-exists" data-dismiss="fileinput" style="float: none">×</a>
+										</div>
+									</div>
+									<br />
+									<p>By registering for the event you agree to </p>
+								</div>
+							</form>
+						</div>
+						<br />
+						<div class="alert alert-success" role="alert">Your application was succesfully submitted!</div>
+						<div class="alert alert-warning" role="alert">Invalid e-mail address, please provide us with correct one.</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-embossed register" onclick="submitForm()">Register</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page-wrapper">
+			<section class="content-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1>Applications</h1><br />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<h3>We're a team working on a national scale</h3>
+							<p>Sports and business do not have to be your expertise to be a part of the Project Gold team. There are many opportunities and positions available.</p>
+							<p>Being part of our team will allow you to further your skills, meet awesome people along the way and provide meaningful contribution to a national cause.</p>
+							<p>Scroll down to see the list of open positions.</p>
+						</div>
+						<div class="col-sm-5 col-sm-offset-1">
+							<div class="image2"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8">
+							<h3>Positions</h3><br /><br />
+							<h4>Event Director</h4>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+			<!-- Load Javascript Files and Scripts -->
+			<script type="text/javascript" src="common-files/js/jquery-2.1.3.min.js"></script>
+			<script src="common-files/js/jquery.bxslider.min.js"></script>
+			<script src="common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+			<script src="common-files/js/jquery.sharrre.min.js"></script>
+			<script src="common-files/js/masonry.pkgd.min.js"></script>
+			<script src="common-files/js/modernizr.custom.js"></script>
+			<script src="common-files/js/page-transitions.js"></script>
+			<script src="common-files/js/easing.min.js"></script>
+			<script src="common-files/js/jquery.svg.js"></script>
+			<script src="common-files/js/jquery.svganim.js"></script>
+			<script src="common-files/js/jquery.backgroundvideo.min.js"></script>
+			<script src="common-files/js/froogaloop.min.js"></script>
+			<script src="common-files/js/startup-kit.js"></script>
+			<script src="common-files/js/flat-ui-pro.min.js"></script>
+		</div>
+	</body>
+</html>

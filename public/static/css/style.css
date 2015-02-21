@@ -1132,11 +1132,23 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     margin-top: 45px;
   }
 }
-.content-2 .image {
+.content-2 .image1 {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
   background-image: url('../../common-files/img/gymnasium.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+}
+.content-2 .image2 {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-image: url('../../common-files/img/bird-and-racket.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
