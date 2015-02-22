@@ -154,8 +154,8 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<h3>An opportunity for Gold</h3>
-							<p>Badminton Canada is launching a nation-wide program called Pathways. The aim of this program is to engage and enrich those who play the sport across Canada. Other programs such as Pathways have proven that the structure it brings is key to the development of Olympic champions.</p>
-							<p>Project Gold is a competition that brings together the best and brightest students. We want to put your skills to the test in a stimulating environment for a national cause.</p>
+							<p>Badminton Canada is launching a nation-wide program called Pathways. The aim of this program is to engage and enrich those who play the sport across Canada. Other programs such as Pathways have proven that the structure it brings, is key to the development of Olympic champions.</p>
+							<p>Project Gold is a marketing case competition that brings together brightest university students. We want to put your skills to the test in a fast paced environment for a national cause.</p>
 							<div class="btns">
 								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
 							</div>
@@ -290,19 +290,19 @@
 						<div class="member-wrapper">
 							<div class="member">
 								<div class="photo-wrapper">
-									<div class="photo"><img src="common-files/img/crew/vladimir-k.png" alt=""></div>
-									<div class="overlay"><span class="fui-eye"></span></div>
+									<!-- <div class="photo"><img src="common-files/img/crew/vladimir-k.png" alt=""></div>
+									<div class="overlay"><span class="fui-eye"></span></div> -->
 								</div>
 								<div class="info">
-									<div class="name">Ian Bishop</div>
-									Badminton Canada
+									<!-- <div class="name">Ian Bishop</div>
+									Badminton Canada -->
 								</div>
 							</div>
 						</div>
 						<div class="member-wrapper">
 							<div class="member">
 								<div class="photo-wrapper">
-									<div class="photo"><img src="common-files/img/crew/sergey-s.png" alt=""></div>
+									<div class="photo"><img src="common-files/img/crew/pry-g.png" alt=""></div>
 									<div class="overlay"><span class="fui-eye"></span></div>
 								</div>
 								<div class="info">
@@ -314,12 +314,12 @@
 						<div class="member-wrapper">
 							<div class="member">
 								<div class="photo-wrapper">
-									<div class="photo"><img src="common-files/img/crew/adrian-v.png" alt=""></div>
-									<div class="overlay"><span class="fui-eye"></span></div>
+									<!-- <div class="photo"><img src="common-files/img/crew/adrian-v.png" alt=""></div>
+									<div class="overlay"><span class="fui-eye"></span></div> -->
 								</div>
 								<div class="info">
-									<div class="name">John Smith</div>
-									Sports Marketing Agency
+									<!-- <div class="name">John Smith</div>
+									Sports Marketing Agency -->
 								</div>
 							</div>
 						</div>

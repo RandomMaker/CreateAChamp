@@ -1464,18 +1464,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   border-radius: 6px;
   overflow: hidden;
   background: 50% 50% no-repeat;
-  opacity: 30;
-  filter: alpha(opacity=3000);
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-  -webkit-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  transition: opacity 0.4s;
 }
 .crew-1 .members .photo img {
   display: none;
 }
+/*
 .crew-1 .members .overlay {
   display: block;
   position: absolute;
@@ -1496,6 +1489,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .crew-1 .members .overlay [class*="fui-"] {
   font-size: 46px;
 }
+*/
 .crew-1 .members .info {
   text-align: center;
   font-size: 14px;
@@ -1503,7 +1497,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin-top: 36px;
 }
 .crew-1 .members .name {
-  color: #34495e;
+  color: #373737;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -1512,6 +1506,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -o-transition: color 0.4s;
   transition: color 0.4s;
 }
+/*
 .crew-1 .members .member:hover .photo-wrapper {
   background-color: #f65f00;
 }
@@ -1530,6 +1525,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .crew-1 .members .member:hover .name {
   color: #f65f00;
 }
+*/
 @media (max-width: 767px) {
   .crew-1 .members {
     display: block;
