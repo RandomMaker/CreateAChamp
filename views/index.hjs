@@ -141,7 +141,7 @@
 				<div>
 					<div class="container">
 						<div class="hero-unit">
-							<h1>Let's create an Olympic Champion!</h1>
+							<h1>Project Gold</h1>
 							<h3>Marketing Case Competition</h3>
 							<p><i class="fa fa-calendar-o"></i> April 4<sup>th</sup> at Wilfrid Laurier University</p>
 						</div>
@@ -342,7 +342,7 @@
 								<a href="#" target="_blank"><img src="common-files/img/logos/serverpremier.png" alt="Server Premier Logo"></a>
 							</div>
 						</div>
-						<div class="sponsorship-c"><a href="mailto:team@projectgold.ca"><u class="interested">Interested in being a sponsor?</u></a></div>
+						<div class="sponsorship-c"><a href="ProjectGold-SponsorshipPackage.pdf" target="_blank"><u class="interested">Interested in being a sponsor?</u></a></div>
 					</div>
 				</div>
 				<!--/.container-->
