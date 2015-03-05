@@ -46,12 +46,8 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>February 12th, 2015</td>
+									<td>March 27th, 2015</td>
 									<td>Registration Deadline</td>
-								</tr>
-								<tr>
-									<td>February 14th, 2015</td>
-									<td>Acceptances Sent Out</td>
 								</tr>
 							</tbody>
 						</table>
@@ -67,32 +63,14 @@
 										<label for="email">E-mail Address:</label>
 										<input type="email" class="form-control" id="email" name="email">
 									</div>
+									<div class="form-group">
+										<label for="phone">Phone Number:</label>
+										<input type="text" class="form-control" id="phone" name="phone">
+									</div>
 									<br />
 									<div class="form-group">
-										<label for="club">Which club are you part of?</label><br />
-										<div class="btn-group">
-											<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-											None <span class="caret"></span>
-											</button>
-											<ul class="dropdown-menu" role="menu">
-												<li><a href="#">Adhawk Laurier</a></li>
-												<li><a href="#">DECA Laurier</a></li>
-												<li><a href="#">Enactus Laurier</a></li>
-												<li><a href="#">E-Business Laurier</a></li>
-												<li><a href="#">HRN Laurier</a></li>
-												<li><a href="#">Laurier Accounting Association</a></li>
-												<li><a href="#">Laurier Badminton Club</a></li>
-												<li><a href="#">Laurier Consulting Club</a></li>
-												<li><a href="#">Laurier Marketing Association</a></li>
-												<li><a href="#">Laurier Sales Association</a></li>
-												<li><a href="#">SBESS</a></li>
-												<li><a href="#">Sports Management Laurier</a></li>
-												<li><a href="#">Startup Laurier</a></li>
-												<li><a href="#">The Link</a></li>
-												<li><a href="#">Xlerate</a></li>
-												<li><a href="#">Women In Leadship Laurier</a></li>
-											</ul>
-										</div>
+										<label for="club">What club(s) are you part of?</label>
+										<input type="text" class="form-control" id="club" name="club">
 									</div>
 									<br />
 									<div class="form-group">
@@ -118,7 +96,6 @@
 										</div>
 									</div>
 									<br />
-									<p>By registering for the event you agree to </p>
 								</div>
 							</form>
 						</div>
@@ -127,7 +104,7 @@
 						<div class="alert alert-warning" role="alert">Invalid e-mail address, please provide us with correct one.</div>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary btn-embossed register" onclick="submitForm()">Register</button>
+						<button type="button" class="btn btn-primary btn-embossed register" onclick="submitForm()">Register Now</button>
 					</div>
 				</div>
 			</div>

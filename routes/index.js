@@ -10,7 +10,9 @@ router.get('/', function(req, res) {
 router.post('/', function(req, res){
 	var fullName = req.body.fullName;
 	var email = req.body.email;
+	var phone = req.body.phone;
 	var club = req.body.club;
+	var makesYou = req.body.makesYou;
 	var teamMembers = req.body.teamMembers;
 });
 
