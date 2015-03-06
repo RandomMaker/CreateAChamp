@@ -7,11 +7,30 @@ var bodyParser = require('body-parser');
 var nodemailer = require("nodemailer");
 var mysql = require('mysql');
 
+// MySQL Connection
+var connection = mysql.createConnection({
+    host     : 'localhost',
+    user     : 'brandon',
+    password : 'brandon123',
+    database : 'ProjectGold'
+});
+
+global.connection = connection;
+
+connection.connect(function(err){
+    if(!err) {
+        console.log("MySQL Database is connected!");  
+    } else {
+        console.log("Error connecting to MySQL Datbaase!");  
+    }
+});
+
 var routes = require('./routes/index');
 var positions = require('./routes/positions');
 var confirmation = require('./routes/confirmation')
 
 var app = express();
+
 
 // force www. redirect, for production
 // app.all(/.*/, function(req, res, next) {
@@ -64,6 +83,7 @@ if (app.get('env') === 'development') {
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
+    console.log(err.message);
     res.status(err.status || 500);
     res.render('error', {
         message: err.message,
