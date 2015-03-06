@@ -9,6 +9,7 @@ var mysql = require('mysql');
 
 var routes = require('./routes/index');
 var positions = require('./routes/positions');
+var confirmation = require('./routes/confirmation')
 
 var app = express();
 
@@ -37,6 +38,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/positions', positions);
+app.use('/confirmation', confirmation);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -75,7 +75,7 @@
 									<br />
 									<div class="form-group">
 										<label for="makesYou">What makes you awesome?</label>
-										<textarea class="form-control" rows="6" id="teamMembers" name="teamMembers"></textarea>
+										<textarea class="form-control" rows="6" id="makesYou" name="makesYou"></textarea>
 									</div>
 									<br />
 									<div class="form-group">
@@ -83,6 +83,7 @@
 										<textarea class="form-control" rows="4" id="teamMembers" name="teamMembers"></textarea>
 									</div>
 									<br />
+									<!--
 									<div class="form-group">
 										<label for="resume">Resume (Optional):</label>
 										<div class="fileinput fileinput-new" data-provides="fileinput">
@@ -95,6 +96,7 @@
 											<a href="#" class="close fileinput-exists" data-dismiss="fileinput" style="float: none">×</a>
 										</div>
 									</div>
+									-->
 									<br />
 								</div>
 							</form>
@@ -319,7 +321,7 @@
 								<a href="#" target="_blank"><img src="common-files/img/logos/serverpremier.png" alt="Server Premier Logo"></a>
 							</div>
 						</div>
-						<div class="sponsorship-c"><a href="SponsorshipPackage.pdf" target="_blank"><u class="interested">Interested in being a sponsor?</u></a></div>
+						<div class="sponsorship-c"><a href="sponsorship/SponsorshipPackage.pdf" target="_blank"><u class="interested">Interested in being a sponsor?</u></a></div>
 					</div>
 				</div>
 				<!--/.container-->

@@ -1156,6 +1156,18 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   overflow: hidden;
   height: 250px;
 }
+.content-2 .image3 {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-image: url('../../common-files/img/court.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
 .content-29 {
   padding-top: 75px;
   padding-bottom: 75px;
