@@ -9,5 +9,3 @@ CREATE TABLE `ProjectGold`.`Applications` (
   `makesYou` TEXT(2500) NOT NULL,
   `teamMembers` TEXT(500) NOT NULL,
   PRIMARY KEY (`id`));
-
-INSERT INTO `ProjectGold`.`Applications` (`fullName`, `email`, `phone`, `club`, `makesYou`, `teamMembers`) VALUES ('Brandon Chow', 'me@branchow.com', '6479903639', 'Club Swag', 'Max Swag', 'Douglas, tommy');

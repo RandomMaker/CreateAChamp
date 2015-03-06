@@ -23,7 +23,7 @@ router.post('/', function(req, res){
 	var teamMembers = req.body.teamMembers;
 
 	// SQL queries for application
-	connection.query("INSERT INTO ProjectGold.Applications (fullName, email, phone, club, makesYou, teamMembers) VALUES ('"+fullName+"', '"+email+"', '"+phone+"', '"+club+"', '"+makesYou+"', '"+teamMembers+"')", function(err, rows, fields) {
+	connection.query('INSERT INTO ProjectGold.Applications (fullName, email, phone, club, makesYou, teamMembers) VALUES (?, ?, ?, ?, ?, ?)', [fullName, email, phone, club, makesYou, teamMembers], function(err, rows, fields) {
         if (!err){
             console.log('Query Successful: ' , rows);
         } else {
@@ -36,6 +36,23 @@ router.post('/', function(req, res){
 	var process = fullName.split(" ");
 	var firstName = process[0];
 	res.render('confirmation', { firstName : firstName });
+
+	// Send confirmation e-mail using nodemailer
+	var mailOptions = {
+	    from: "team@projectgold.ca",
+	    to: email,
+	    subject: "Project Gold Registration Confirmation",
+	    text: "Thank you for regisistering for Project Gold! This is a confirmation e-mail letting you know that it was successful.",
+	    html: "<h1>Thank you for regisistering for Project Gold!</h1><br/> This is a confirmation e-mail letting you know that it was successful. Please stay tuned to your e-mail and social media for updates on the competition."
+	}
+
+	transporter.sendMail(mailOptions, function(error, response){
+	    if(error){
+	        console.log(error);
+	    }else{
+	        console.log("Message sent: " + response.message);
+	    }
+	});
 });
 
 module.exports = router;

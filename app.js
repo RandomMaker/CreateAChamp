@@ -10,12 +10,10 @@ var mysql = require('mysql');
 // MySQL Connection
 var connection = mysql.createConnection({
     host     : 'localhost',
-    user     : 'brandon',
-    password : 'brandon123',
+    user     : '',
+    password : '',
     database : 'ProjectGold'
 });
-
-global.connection = connection;
 
 connection.connect(function(err){
     if(!err) {
@@ -24,6 +22,19 @@ connection.connect(function(err){
         console.log("Error connecting to MySQL Datbaase!");  
     }
 });
+
+global.connection = connection;
+
+// Nodemailer Connection Configuration
+var transporter = nodemailer.createTransport({
+    service: "Gmail",
+    auth: {
+        user: "",
+        pass: ""
+    }
+});
+
+global.transporter = transporter;
 
 var routes = require('./routes/index');
 var positions = require('./routes/positions');
