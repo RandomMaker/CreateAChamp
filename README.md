@@ -8,8 +8,6 @@ Project Gold is a marketing case competition that will be held at Wilfrid Laurie
 
 The host organization for the event is Badminton Canada who is launching their new national program Pathways. Pathways’ mission is to change how badminton is played and perceived across Canada, with the end goal of developing the next Canadian Olympic Champion. Other programs similar to Pathways have proven that the structure it brings is key to the development of one.
 
-Project Gold will be held on April 4th, 2015 we are projecting more than 60 students will compete in the event and many will watch and attend.
-
 ## Sponsors
 
 - Yonex
