@@ -39,7 +39,7 @@ router.post('/', function(req, res){
 
 	// Send confirmation e-mail using nodemailer
 	var mailOptions = {
-	    from: "team@projectgold.ca",
+	    from: "Project Gold Team",
 	    to: email,
 	    subject: "Project Gold Registration Confirmation",
 	    text: "Thank you for regisistering for Project Gold! This is a confirmation e-mail letting you know that it was successful.",
