@@ -12,9 +12,9 @@ Project Gold will be held on April 4th, 2015 and will attract students from both
 
 ## Sponsors
 
-- Yonex
-- Black Knight
-- Server Premier
+- Yonex - http://www.yonexusa.com/
+- Black Knight - http://www.blackknightusa.com/
+- Server Premier - http://serverpremier.com
 
 ## Interested in helping us out?
 
