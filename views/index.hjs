@@ -30,7 +30,7 @@
 		<div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="signUpLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-				<form role="form" action="/" method="post" id="registrationForm">
+				<form role="form" action="/" method="post" id="registrationForm" enctype="multipart/form-data">
 					<div class="modal-header">
 						<button type="button" class="close fui-cross" data-dismiss="modal" aria-hidden="true"></button>
 						<h4 class="modal-title" id="signUpLabel">Registration Form</h4>
@@ -209,7 +209,7 @@
 										</tr>
 										<tr>
 											<td>1:00 PM</td>
-											<td>Lunch Is Available</td>
+											<td>Pinty's Sponsored Lunch</td>
 										</tr>
 										<tr>
 											<td>5:00 PM</td>
@@ -311,6 +311,15 @@
 								<a href="#" target="_blank"><img src="common-files/img/logos/serverpremier.png" alt="Server Premier Logo"></a>
 							</div>
 						</div>
+						<div class="row sponsors">
+							<div class="col-sm-4">
+							</div>
+							<div class="col-sm-4">
+								<a href="http://www.pintys.com/" target="_blank"><img src="common-files/img/logos/pintys.jpg" alt="Pinty's Logo"></a>
+							</div>
+							<div class="col-sm-4">
+							</div>
+						</div>
 						<div class="sponsorship-c"><a href="sponsorship/SponsorshipPackage.pdf" target="_blank"><u class="interested">Interested in being a sponsor?</u></a></div>
 					</div>
 				</div>
@@ -321,10 +330,13 @@
 					<h3>Partners</h3>
 					<div class="container">
 						<div class="row sponsors">
-							<div class="col-sm-6">
+							<div class="col-sm-4">
+								<a href="http://badminton.ca/" target="_blank"><img src="common-files/img/logos/badmintoncanada.png" alt="Badminton Canada Logo"></a>
+							</div>
+							<div class="col-sm-4">
 								<a href="http://www.educase.ca/" target="_blank"><img src="common-files/img/logos/educase.jpg" alt="Educase Logo"></a>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-sm-4">
 								<a href="http://wlu.ca" target="_blank"><img src="common-files/img/logos/wlu.jpg" alt="Wilfrid Laurier University"></a>
 							</div>
 						</div>
@@ -342,11 +354,7 @@
 				<div class="container">
 					<div class="content">
 						<div class="social-btns">
-							<a href="#">
-								<div class="fui-twitter"></div>
-								<div class="fui-twitter"></div>
-							</a>
-							<a href="#">
+							<a href="https://www.facebook.com/events/1580557375521688/" target="_blank">
 								<div class="fui-facebook"></div>
 								<div class="fui-facebook"></div>
 							</a>

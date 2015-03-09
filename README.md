@@ -12,7 +12,8 @@ The host organization for the event is Badminton Canada who is launching their n
 
 - Yonex - http://www.yonexusa.com/
 - Black Knight - http://www.blackknightusa.com/
-- Server Premier - http://serverpremier.com
+- Server Premier - http://serverpremier.com/
+- Pinty's - http://www.pintys.com/
 
 ## Interested in helping us out?
 
