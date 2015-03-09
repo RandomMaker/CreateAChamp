@@ -10,8 +10,8 @@ var mysql = require('mysql');
 // MySQL Connection
 var connection = mysql.createConnection({
     host     : 'localhost',
-    user     : '',
-    password : '',
+    user     : 'brandon',
+    password : 'brandon123',
     database : 'ProjectGold',
     pool     : { maxConnections: 50, maxIdleTime: 30}
 });
@@ -31,7 +31,7 @@ var transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
         user: "team@projectgold.ca",
-        pass: ""
+        pass: "0dznoI0Z8LMcLIjb"
     }
 });
 
