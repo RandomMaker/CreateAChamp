@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var multiparty = require('multiparty');
-var fs = require('fs');
+var fs = require('fs-extra');
+var mime = require('mime');
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -44,8 +45,11 @@ router.post('/', function(req, res, next){
             if (allowedMimeTypes.indexOf(mime.lookup(files.file[0].path)) === -1) {
                 console.log('Unexpected mime type. ' + mime.lookup(files.file[0].path));
             } else {
-                fs.createReadStream(files.file[0].path).pipe(fs.createWriteStream('/resumes/' + files.file[0].originalFilename));
-                console.log("File upload successful!");
+                fs.createReadStream(files.file[0].path).pipe(fs.createWriteStream('/resumes' + files.file[0].originalFilename));
+                fs.copy(files.file[0].path, '/resumes/' + files.file[0].originalFilename, function(err) {
+				  if (err) return console.error(err)
+				  console.log("success!")
+				});
         	}
             console.log('File uploaded. Local patch: ' + files.file[0].path);
         }

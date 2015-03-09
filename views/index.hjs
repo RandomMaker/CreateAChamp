@@ -90,7 +90,7 @@
 											<span class="btn btn-primary btn-embossed btn-file">
 											<span class="fileinput-new"><span class="fui-upload"></span>  Attach File</span>
 											<span class="fileinput-exists"><span class="fui-gear"></span>  Change</span>
-											<input type="file" name="...">
+											<input type="file" name="file">
 											</span>
 											<span class="fileinput-filename"></span>
 											<a href="#" class="close fileinput-exists" data-dismiss="fileinput" style="float: none">×</a>
