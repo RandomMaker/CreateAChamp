@@ -1467,8 +1467,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .crew-1 .members .photo {
   position: absolute;
-  width: 100%;
   height: 100%;
+  width: 100%;
   left: 0;
   top: 0;
   -webkit-border-radius: 6px;
@@ -1583,18 +1583,31 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   .sponsorship-c {
     padding-bottom: 75px;
   }
+  .sponsors .title {
+    padding-bottom: 50px !important;
+  }
 }
 .sponsors h3 {
   margin: 0 0 73px;
   font-size: 30px;
-  text-align: left;
   font-weight: 300;
   text-align: center;
   color: #373737;
 }
+.sponsors .title {
+  padding-top: 100px;
+  margin-bottom: -40px;
+}
 .sponsors img {
-  max-height: 75px;
-  max-width: 300px;
+  max-height: 65px;
+  max-width: 225px;
+}
+.sponsors .enhance1 {
+  max-height: 100px !important;
+}
+.sponsors .enhance2 {
+  max-height: 250px !important;
+  max-width: 350px !important;
 }
 .sponsors a {
   color: #757575;

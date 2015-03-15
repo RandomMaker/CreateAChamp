@@ -36,7 +36,7 @@
 						<h4 class="modal-title" id="signUpLabel">Registration Form</h4>
 					</div>
 					<div class="modal-body">
-						<p>We can only have so many people attend the competition. By signing up for the event, your application will be reviewed and an e-mail will be sent out confirming your acceptance.</p>
+						<p>This form will be used to signup for the event. Please ensure that all of your team members submit their registration before the deadline!</p>
 						<br />
 						<table class="table table-striped">
 							<thead>
@@ -131,7 +131,7 @@
 						<div class="col-sm-6">
 							<h3>An opportunity for Gold</h3>
 							<p>Badminton Canada is launching a nation-wide program called Pathways. The aim of this program is to engage and enrich those who play the sport across Canada. Other programs such as Pathways have proven that the structure it brings, is key to the development of Olympic champions.</p>
-							<p>Project Gold is a marketing case competition that brings together brightest university students. We want to put your skills to the test in a fast paced environment for a national cause.</p>
+							<p>Project Gold is a marketing case competition that brings together the brightest university students. We want to put your skills to the test in a fast paced environment for a national cause.</p>
 							<div class="btns">
 								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
 							</div>
@@ -180,8 +180,8 @@
 							<div class="col-sm-6 aligment">
 								<h3>Competition Overview</h3>
 								<p>Project Gold is not your traditional case competition. We've designed it to be engaging and use a wide range of your skills.</p>
-								<p>You will be provided with a case that encompasses certain aspects of Badminton Canada's marketing initiatives. A presentation with the proposal will need to be created an presented to a panel of judges.</p>
-								<p>The case will be released 2 weeks prior to the event date and can be reviewed and worked on ahead of time. We encourage you to do so.</p>
+								<p>You will be provided with a case that encompasses certain aspects of Badminton Canada's marketing initiatives. A presentation with the proposal will need to be created and presented to a panel of judges.</p>
+								<p>The case will be released 2 weeks prior to the event date and can be reviewed and worked on ahead of time. We encourage you to do so. Teams can be up to four people.</p>
 								<br />
 								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
 							</div>
@@ -259,19 +259,19 @@
 						<div class="member-wrapper">
 							<div class="member">
 								<div class="photo-wrapper">
-									<!-- <div class="photo"><img src="common-files/img/crew/vladimir-k.png" alt=""></div>
-									<div class="overlay"><span class="fui-eye"></span></div> -->
+									<div class="photo"><img src="common-files/img/judges/judge.jpg" alt=""></div>
+									<div class="overlay"><span class="fui-eye"></span></div>
 								</div>
 								<div class="info">
-									<!-- <div class="name">Ian Bishop</div>
-									Badminton Canada -->
+									<div class="name">Ian Bishop</div>
+									Badminton Canada
 								</div>
 							</div>
 						</div>
 						<div class="member-wrapper">
 							<div class="member">
 								<div class="photo-wrapper">
-									<div class="photo"><img src="common-files/img/crew/pry-g.png" alt=""></div>
+									<div class="photo"><img src="common-files/img/judges/pry.jpg" alt=""></div>
 									<div class="overlay"><span class="fui-eye"></span></div>
 								</div>
 								<div class="info">
@@ -283,12 +283,12 @@
 						<div class="member-wrapper">
 							<div class="member">
 								<div class="photo-wrapper">
-									<!-- <div class="photo"><img src="common-files/img/crew/adrian-v.png" alt=""></div>
-									<div class="overlay"><span class="fui-eye"></span></div> -->
+									<div class="photo"><img src="common-files/img/judges/junaid.jpg" alt=""></div>
+									<div class="overlay"><span class="fui-eye"></span></div>
 								</div>
 								<div class="info">
-									<!-- <div class="name">John Smith</div>
-									Sports Marketing Agency -->
+									<div class="name">Junaid Ali</div>
+									Educase
 								</div>
 							</div>
 						</div>
@@ -298,8 +298,14 @@
 			</section>
 			<section class="sponsors">
 				<div class="container">
-					<h3>Sponsors</h3>
 					<div class="container">
+						<div class="row sponsors">
+							<div class=".col-md-8 .col-md-offset-2">
+								<h3>Title Sponsor</h3>
+								<a href="http://rentwoch.com" target="_blank"><img src="common-files/img/logos/woch.jpg" class="enhance2" alt="Wateroo Off Campus Housing Logo"></a>
+								<h3 class="title">Sponsors</h3>
+							</div>
+						</div>
 						<div class="row sponsors">
 							<div class="col-sm-4">
 								<a href="http://www.yonex.com/" target="_blank"><img src="common-files/img/logos/yonex.jpg" alt="Yonex Logo"></a>
@@ -308,16 +314,18 @@
 								<a href="http://blackknight.ca" target="_blank"><img src="common-files/img/logos/blackknight.jpg" alt="Black Knight Logo"></a>
 							</div>
 							<div class="col-sm-4">
-								<a href="#" target="_blank"><img src="common-files/img/logos/serverpremier.png" alt="Server Premier Logo"></a>
+								<a href="http://www.prismresources.ca/" target="_blank"><img src="common-files/img/logos/prismresources.png" alt="Prism Resources Logo"></a>
 							</div>
 						</div>
 						<div class="row sponsors">
 							<div class="col-sm-4">
-							</div>
-							<div class="col-sm-4">
 								<a href="http://www.pintys.com/" target="_blank"><img src="common-files/img/logos/pintys.jpg" alt="Pinty's Logo"></a>
 							</div>
 							<div class="col-sm-4">
+								<a href="http://serverpremier.com" target="_blank"><img src="common-files/img/logos/serverpremier.png" alt="Server Premier Logo"></a>
+							</div>
+							<div class="col-sm-4">
+								<a href="http://www.davidrobertsfood.com/" target="_blank"><img src="common-files/img/logos/davidroberts.jpg" alt="David Roberts Logo"></a>
 							</div>
 						</div>
 						<div class="sponsorship-c"><a href="sponsorship/SponsorshipPackage.pdf" target="_blank"><u class="interested">Interested in being a sponsor?</u></a></div>
@@ -337,7 +345,7 @@
 								<a href="http://www.educase.ca/" target="_blank"><img src="common-files/img/logos/educase.jpg" alt="Educase Logo"></a>
 							</div>
 							<div class="col-sm-4">
-								<a href="http://wlu.ca" target="_blank"><img src="common-files/img/logos/wlu.jpg" alt="Wilfrid Laurier University"></a>
+								<a href="http://lauriereconclub.com/" target="_blank"><img src="common-files/img/logos/lauriereconomics.png" alt="Laurier Economics Club"></a>
 							</div>
 						</div>
 					</div>
