@@ -9,9 +9,9 @@ var mysql = require('mysql');
 
 // MySQL Connection
 var connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'brandon',
-    password : 'brandon123',
+    host     : '',
+    user     : '',
+    password : '',
     database : 'ProjectGold',
     pool     : { maxConnections: 50, maxIdleTime: 30}
 });
