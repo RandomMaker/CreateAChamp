@@ -7,9 +7,14 @@ var mime = require('mime');
 /* GET home page. */
 router.get('/', function(req, res) {
 	res.render('index', { title: 'Project Gold' });
-    connection.query('SELECT * FROM Applications', function(err, rows, fields) {
+    var rows;
+    connection.query('SELECT * FROM Applications', function(err, rows) {
         if (!err){
             console.log(rows);
+            console.log("TESTING 123");
+            console.log(rows[0]);
+            console.log(rows[1]);
+            console.log('Applications length: ', rows.length);
         } else {
             console.log('Error performing query.');
         }

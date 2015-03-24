@@ -181,7 +181,7 @@
 								<h3>Competition Overview</h3>
 								<p>Project Gold is not your traditional case competition. We've designed it to be engaging and use a wide range of your skills.</p>
 								<p>You will be provided with a case that encompasses certain aspects of Badminton Canada's marketing initiatives. A presentation with the proposal will need to be created and presented to a panel of judges.</p>
-								<p>The case will be released 2 weeks prior to the event date and can be reviewed and worked on ahead of time. We encourage you to do so. Teams can be up to four people.</p>
+								<p>The case will be released 1 week prior to the event date and can be reviewed and worked on ahead of time. We encourage you to do so. Teams can be up to four people.</p>
 								<br />
 								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
 							</div>
@@ -197,30 +197,38 @@
 									<tbody>
 										<tr>
 											<td>10:00 AM</td>
-											<td>Registration Opens</td>
+											<td>Registration</td>
 										</tr>
 										<tr>
 											<td>11:00 AM</td>
-											<td>Guest Speaker</td>
+											<td>Opening Ceremony and Remarks</td>
 										</tr>
 										<tr>
-											<td>12:30 PM</td>
-											<td>Case Work Time with Mentors</td>
+											<td>11:15 AM</td>
+											<td>Keynote Speaker</td>
+										</tr>
+										<tr>
+											<td>11:35 AM</td>
+											<td>Competition Overview</td>
+										</tr>
+										<tr>
+											<td>11:45 AM</td>
+											<td>Lunch Time and Networking</td>
 										</tr>
 										<tr>
 											<td>1:00 PM</td>
-											<td>Pinty's Sponsored Lunch</td>
+											<td>Presentation Refinement with Mentors</td>
 										</tr>
 										<tr>
-											<td>5:00 PM</td>
-											<td>Semi-Finals Judging</td>
+											<td>2:00 PM</td>
+											<td>Presentations Start</td>
 										</tr>
 										<tr>
-											<td>6:30 PM</td>
+											<td>4:30 PM</td>
 											<td>Finals Presentations</td>
 										</tr>
 										<tr>
-											<td>7:30 PM</td>
+											<td>5:15 PM</td>
 											<td>Closing Ceremonies and Remarks</td>
 										</tr>
 									</tbody>
@@ -236,17 +244,17 @@
 							<div class="col-sm-4">
 								<i class="fa fa-trophy prizes"></i>
 								<h6>1<sup>st</sup> Place</h6>
-								<p>To be announced.</p>
+								<p>$1,000</p>
 							</div>
 							<div class="col-sm-4">
 								<i class="fa fa-trophy prizes"></i>
 								<h6>2<sup>nd</sup> Place</h6>
-								<p>To be announced.</p>
+								<p>$500</p>
 							</div>
 							<div class="col-sm-4">
 								<i class="fa fa-trophy prizes"></i>
 								<h6>3<sup>rd</sup> Place</h6>
-								<p>To be announced.</p>
+								<p>$250</p>
 							</div>
 						</div>
 					</div>
@@ -346,6 +354,14 @@
 							</div>
 							<div class="col-sm-4">
 								<a href="http://lauriereconclub.com/" target="_blank"><img src="common-files/img/logos/lauriereconomics.png" alt="Laurier Economics Club"></a>
+							</div>
+						</div>
+						<div class="row sponsors">
+							<div class="col-sm-6">
+								<a href="http://wlu.ca/" target="_blank"><img src="common-files/img/logos/wlu.jpg" alt="Wilfrid Laurier University Logo"></a>
+							</div>
+							<div class="col-sm-6">
+								<a href="http://uwaterloo.ca/" target="_blank"><img src="common-files/img/logos/uw.png" alt="University of Waterloo Logo" class="enhance"></a>
 							</div>
 						</div>
 					</div>
