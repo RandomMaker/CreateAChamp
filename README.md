@@ -21,6 +21,14 @@ The host organization for the event is Badminton Canada who is launching their n
 - Yonex - http://www.yonexusa.com/
 - Server Premier - http://serverpremier.com/
 
+## Partners
+
+- Badminton Canada
+- Educase
+- Laurier Economics Club
+- Wilfrid Laurier University
+- University of Waterloo
+
 ## Interested in helping us out?
 
 Please e-mail us at team@projectgold.ca with your contact information and we will get in touch. Thanks!
