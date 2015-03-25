@@ -30,8 +30,8 @@ global.connection = connection;
 var transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-        user: "team@projectgold.ca",
-        pass: "ZuJ9R1GkCJ"
+        user: "",
+        pass: ""
     }
 });
 
