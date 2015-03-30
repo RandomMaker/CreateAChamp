@@ -1563,7 +1563,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   width: 100%;
 }
 .sponsors .enhance {
-  max-height: 100px !important;
+  max-height: 105px !important;
 }
 @media (max-width: 992px) {
   .sponsors img {
@@ -1809,4 +1809,17 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  }
  .positions li {
   line-height: 38px;
+ }
+ /**
+ * Case Information
+ * */
+ .info-icons {
+  color: #373737;
+  font-size: 100px;
+ }
+ .download{
+  background-color: #f65f00;
+ }
+ .download:hover {
+  background-color: #DC5500;
  }

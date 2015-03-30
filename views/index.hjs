@@ -39,19 +39,31 @@
 						<p>This form will be used to signup for the event. Please ensure that all of your team members submit their registration before the deadline!</p>
 						<br />
 						<table class="table table-striped">
-							<thead>
+								<thead>
 								<tr>
 									<th>Date</th>
 									<th>Deadline</th>
 								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>March 27th, 2015</td>
-									<td>Registration Deadline</td>
-								</tr>
-							</tbody>
-						</table>
+								</thead>
+								<tbody>
+									<tr>
+										<td>March 27<sup>th</sup>, 2015</td>
+										<td>Regular Registration Deadline</td>
+									</tr>
+									<tr>
+										<td>March 28<sup>th</sup>, 2015</td>
+										<td>Case Is Released</td>
+									</tr>
+									<tr>
+										<td>April 1<sup>st</sup>, 2015</td>
+										<td>Late Registration Deadline</td>
+									</td>
+									<tr>
+										<td>April 4<sup>th</sup>, 2015</td>
+										<td>Event Date</td>
+									</tr>
+								</tbody>
+							</table>
 						<div class="row">
 							
 								<div class="col-sm-8 col-sm-offset-2">
@@ -181,7 +193,7 @@
 								<h3>Competition Overview</h3>
 								<p>Project Gold is not your traditional case competition. We've designed it to be engaging and use a wide range of your skills.</p>
 								<p>You will be provided with a case that encompasses certain aspects of Badminton Canada's marketing initiatives. A presentation with the proposal will need to be created and presented to a panel of judges.</p>
-								<p>The case will be released 1 week prior to the event date and can be reviewed and worked on ahead of time. We encourage you to do so. Teams can be up to four people.</p>
+								<p>The case will be released 1 week prior to the event date. You will be required to come to the event with your summary and presentation ready. There will also be time to speak with mentors to refine your presentation and case.</p>
 								<br />
 								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
 							</div>
@@ -256,6 +268,30 @@
 								<h6>3<sup>rd</sup> Place</h6>
 								<p>$250</p>
 							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content-29">
+				<div class="container">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h3>Competition Information</h3>
+					</div>
+					<div class="row features">
+						<div class="col-sm-3">
+							<i class="fa fa-briefcase info-icons"></i>
+							<h6>Full Case Package</h6><br />
+							<a href="http://www.projectgold.ca/case/Project_Gold.zip"><button class="btn btn-primary btn-embossed download" >Download</button></a>
+						</div>
+						<div class="col-sm-4 col-sm-offset-1">
+							<i class="fa fa-trophy info-icons"></i>
+							<h6>Prizes</h6><br />
+							<a href="http://www.projectgold.ca/Prizes.pdf" target="_blank"><button class="btn btn-primary btn-embossed download" >Download</button></a>
+						</div>
+						<div class="col-sm-3 col-sm-offset-1">
+							<i class="fa fa-check info-icons"></i>
+							<h6>Judging Criteria</h6><br />
+							<a href="http://www.projectgold.ca/case/JudgingCriteria.pdf" target="_blank"><button class="btn btn-primary btn-embossed download" >Download</button></a>
 						</div>
 					</div>
 				</div>
@@ -350,10 +386,10 @@
 								<a href="http://badminton.ca/" target="_blank"><img src="common-files/img/logos/badmintoncanada.png" alt="Badminton Canada Logo"></a>
 							</div>
 							<div class="col-sm-4">
-								<a href="http://www.educase.ca/" target="_blank"><img src="common-files/img/logos/educase.jpg" alt="Educase Logo"></a>
+								<a href="http://www.educase.ca/" target="_blank"><img src="common-files/img/logos/educase.jpg" alt="Educase Logo" class="enhance"></a>
 							</div>
 							<div class="col-sm-4">
-								<a href="http://lauriereconclub.com/" target="_blank"><img src="common-files/img/logos/lauriereconomics.png" alt="Laurier Economics Club"></a>
+								<a href="http://lauriereconclub.com/" target="_blank"><img src="common-files/img/logos/lauriereconomics.png" alt="Laurier Economics Club" class="enhance"></a>
 							</div>
 						</div>
 						<div class="row sponsors">
