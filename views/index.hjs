@@ -131,7 +131,7 @@
 						<div class="hero-unit">
 							<h1>Project Gold</h1>
 							<h3>Marketing Case Competition</h3>
-							<p><i class="fa fa-calendar-o"></i> April 4<sup>th</sup> at Wilfrid Laurier University</p>
+							<p><i class="fa fa-calendar-o"></i> April 4<sup>th</sup> at Wilfrid Laurier University, Schlegel Centre</p>
 						</div>
 					</div>
 				</div>
@@ -298,12 +298,40 @@
 			</section>
 			<section class="crew-1">
 				<div class="container">
+					<h3>Keynote Speaker</h3>
+					<div class="members">
+						<div class="member-wrapper">
+							<div class="member">
+							</div>
+						</div>
+						<div class="member-wrapper">
+							<div class="member">
+								<div class="photo-wrapper">
+									<div class="photo"><img src="common-files/img/judges/oral.jpg" alt=""></div>
+									<div class="overlay"><span class="fui-eye"></span></div>
+								</div>
+								<div class="info">
+									<div class="name">Oral Ramlochan</div>
+									Morse Canada Systems Inc.
+								</div>
+							</div>
+						</div>
+						<div class="member-wrapper">
+							<div class="member">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/.container-->
+			</section>
+			<section class="crew-1">
+				<div class="container">
 					<h3>Judging Panel</h3>
 					<div class="members">
 						<div class="member-wrapper">
 							<div class="member">
 								<div class="photo-wrapper">
-									<div class="photo"><img src="common-files/img/judges/judge.jpg" alt=""></div>
+									<div class="photo"><img src="common-files/img/judges/ian.jpg" alt=""></div>
 									<div class="overlay"><span class="fui-eye"></span></div>
 								</div>
 								<div class="info">
@@ -334,6 +362,28 @@
 									<div class="name">Junaid Ali</div>
 									Educase
 								</div>
+							</div>
+						</div>
+					</div>
+					<div class="members">
+						<div class="member-wrapper">
+							<div class="member">
+							</div>
+						</div>
+						<div class="member-wrapper">
+							<div class="member">
+								<div class="photo-wrapper">
+									<div class="photo"><img src="common-files/img/judges/brandonchow.jpg" alt=""></div>
+									<div class="overlay"><span class="fui-eye"></span></div>
+								</div>
+								<div class="info">
+									<div class="name">Brandon Chow</div>
+									Serial Entrepreneur
+								</div>
+							</div>
+						</div>
+						<div class="member-wrapper">
+							<div class="member">
 							</div>
 						</div>
 					</div>
@@ -372,6 +422,11 @@
 								<a href="http://www.davidrobertsfood.com/" target="_blank"><img src="common-files/img/logos/davidroberts.jpg" alt="David Roberts Logo"></a>
 							</div>
 						</div>
+						<div class="row sponsors">
+							<div class="col-sm-12">
+								<a href="http://www.morsecanada.com/" target="_blank"><img src="common-files/img/logos/morse.jpg" alt="Morse Canada Logo" class="enhance"></a>
+							</div>
+						</div>
 						<div class="sponsorship-c"><a href="sponsorship/SponsorshipPackage.pdf" target="_blank"><u class="interested">Interested in being a sponsor?</u></a></div>
 					</div>
 				</div>
@@ -386,18 +441,18 @@
 								<a href="http://badminton.ca/" target="_blank"><img src="common-files/img/logos/badmintoncanada.png" alt="Badminton Canada Logo"></a>
 							</div>
 							<div class="col-sm-4">
-								<a href="http://www.educase.ca/" target="_blank"><img src="common-files/img/logos/educase.jpg" alt="Educase Logo" class="enhance"></a>
+								<a href="http://wlu.ca/" target="_blank"><img src="common-files/img/logos/wlu.jpg" alt="Wilfrid Laurier University Logo"></a>
 							</div>
 							<div class="col-sm-4">
-								<a href="http://lauriereconclub.com/" target="_blank"><img src="common-files/img/logos/lauriereconomics.png" alt="Laurier Economics Club" class="enhance"></a>
+								<a href="http://uwaterloo.ca/" target="_blank"><img src="common-files/img/logos/uw.png" alt="University of Waterloo Logo" class="enhance"></a>
 							</div>
 						</div>
 						<div class="row sponsors">
 							<div class="col-sm-6">
-								<a href="http://wlu.ca/" target="_blank"><img src="common-files/img/logos/wlu.jpg" alt="Wilfrid Laurier University Logo"></a>
+								<a href="http://www.educase.ca/" target="_blank"><img src="common-files/img/logos/educase.jpg" alt="Educase Logo" class="enhance"></a>
 							</div>
 							<div class="col-sm-6">
-								<a href="http://uwaterloo.ca/" target="_blank"><img src="common-files/img/logos/uw.png" alt="University of Waterloo Logo" class="enhance"></a>
+								<a href="http://lauriereconclub.com/" target="_blank"><img src="common-files/img/logos/lauriereconomics.png" alt="Laurier Economics Club" class="enhance"></a>
 							</div>
 						</div>
 					</div>

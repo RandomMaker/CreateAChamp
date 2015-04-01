@@ -20,6 +20,7 @@ The host organization for the event is Badminton Canada who is launching their n
 - Pinty's - http://www.pintys.com/
 - Yonex - http://www.yonexusa.com/
 - Server Premier - http://serverpremier.com/
+- Morse Canada - http://morsecanada.com
 
 ## Partners
 
