@@ -209,7 +209,7 @@
 									<tbody>
 										<tr>
 											<td>10:00 AM</td>
-											<td>Registration</td>
+											<td>Registration and Presentation Refinement</td>
 										</tr>
 										<tr>
 											<td>11:00 AM</td>
@@ -232,7 +232,7 @@
 											<td>Presentation Refinement with Mentors</td>
 										</tr>
 										<tr>
-											<td>2:00 PM</td>
+											<td>2:30 PM</td>
 											<td>Presentations Start</td>
 										</tr>
 										<tr>
@@ -240,7 +240,7 @@
 											<td>Finals Presentations</td>
 										</tr>
 										<tr>
-											<td>5:15 PM</td>
+											<td>6:10 PM</td>
 											<td>Closing Ceremonies and Remarks</td>
 										</tr>
 									</tbody>
@@ -368,6 +368,16 @@
 					<div class="members">
 						<div class="member-wrapper">
 							<div class="member">
+								<div class="member">
+								<div class="photo-wrapper">
+									<div class="photo"><img src="common-files/img/judges/denise.jpg" alt=""></div>
+									<div class="overlay"><span class="fui-eye"></span></div>
+								</div>
+								<div class="info">
+									<div class="name">Denise Huang</div>
+									PRISM Resources
+								</div>
+							</div>
 							</div>
 						</div>
 						<div class="member-wrapper">
@@ -384,6 +394,16 @@
 						</div>
 						<div class="member-wrapper">
 							<div class="member">
+								<div class="member">
+								<div class="photo-wrapper">
+									<div class="photo"><img src="common-files/img/judges/andreea.jpg" alt=""></div>
+									<div class="overlay"><span class="fui-eye"></span></div>
+								</div>
+								<div class="info">
+									<div class="name">Andreea Fatu</div>
+									PRISM Resources
+								</div>
+							</div>
 							</div>
 						</div>
 					</div>
