@@ -114,7 +114,7 @@
 						</div>
 					</div>
 					<div class="modal-footer">
-						<button type="submit" class="btn btn-primary btn-embossed register" >Register Now</button>
+						<button type="submit" class="btn btn-primary btn-embossed register disabled" >Register Now</button>
 					</div>
 					</form>
 				</div>
@@ -131,7 +131,7 @@
 						<div class="hero-unit">
 							<h1>Project Gold</h1>
 							<h3>Marketing Case Competition</h3>
-							<p><i class="fa fa-calendar-o"></i> April 4<sup>th</sup> at Wilfrid Laurier University, Schlegel Centre</p>
+							<p><i class="fa fa-calendar-o"></i> April 4<sup>th</sup>, 2015 at Wilfrid Laurier University, Schlegel Centre</p>
 						</div>
 					</div>
 				</div>
@@ -145,11 +145,32 @@
 							<p>Badminton Canada is launching a nation-wide program called Pathways. The aim of this program is to engage and enrich those who play the sport across Canada. Other programs such as Pathways have proven that the structure it brings, is key to the development of Olympic champions.</p>
 							<p>Project Gold is a marketing case competition that brings together the brightest university students. We want to put your skills to the test in a fast paced environment for a national cause.</p>
 							<div class="btns">
-								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
+								<a class="btn btn-primary btn-embossed disabled" href="#" data-toggle="modal" data-target="#signUp"></span>CLOSED</a>
 							</div>
 						</div>
 						<div class="col-sm-5 col-sm-offset-1">
 							<div class="image1"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content-29">
+				<div class="container">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h3>Winners</h3>
+					</div>
+					<div class="row features">
+						<div class="col-sm-3">
+							<img src="images/winners/1st.jpg" alt="Project Gold 1st Place Winners"/>
+							<h6>1st Place</h6><br />
+						</div>
+						<div class="col-sm-4 col-sm-offset-1">
+							<i class="fa fa-trophy info-icons"></i>
+							<h6>Prizes</h6><br />
+						</div>
+						<div class="col-sm-3 col-sm-offset-1">
+							<i class="fa fa-check info-icons"></i>
+							<h6>Judging Criteria</h6><br />
 						</div>
 					</div>
 				</div>
@@ -195,7 +216,7 @@
 								<p>You will be provided with a case that encompasses certain aspects of Badminton Canada's marketing initiatives. A presentation with the proposal will need to be created and presented to a panel of judges.</p>
 								<p>The case will be released 1 week prior to the event date. You will be required to come to the event with your summary and presentation ready. There will also be time to speak with mentors to refine your presentation and case.</p>
 								<br />
-								<a class="btn btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp"></span>SIGN UP</a>
+								<a class="btn btn-primary btn-embossed disabled" href="#" data-toggle="modal" data-target="#signUp"></span>CLOSED</a>
 							</div>
 							<div class="col-sm-5 col-sm-offset-1">
 								<h4>Schedule - April 4<sup>th</sup>, 2015</h4>
@@ -482,7 +503,7 @@
 			<section class="content-11">
 				<div class="container">
 					<span>Register as an individual or team, it's free!</span>
-					<a class="btn btn-large btn-primary btn-embossed" href="#" data-toggle="modal" data-target="#signUp">SIGN UP</a>
+					<a class="btn btn-large btn-primary btn-embossed disabled" href="#" data-toggle="modal" data-target="#signUp">CLOSED</a>
 				</div>
 			</section>
 			<section class="contacts-4">
