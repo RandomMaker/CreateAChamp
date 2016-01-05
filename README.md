@@ -4,9 +4,9 @@ http://www.projectgold.ca
 
 ## What is Project Gold?
 
-Project Gold is a marketing case competition that will be held at Wilfrid Laurier University. The event brings together top marketing and business students from the Kitchener-Waterloo area to compete against each other for a national cause.
+Project Gold was a marketing case competition held at Wilfrid Laurier University. The event brought together top business students from all over Ontario to compete against each other for a national cause. Representation included participants from University of Waterloo, University of Western Ontario, Ryerson University, York University, McMaster University and Wilfrid Laurier University.
 
-The host organization for the event is Badminton Canada who is launching their new national program Pathways. Pathways’ mission is to change how badminton is played and perceived across Canada, with the end goal of developing the next Canadian Olympic Champion. Other programs similar to Pathways have proven that the structure it brings is key to the development of one.
+The host organization for the event was Badminton Canada. The focus of the competition was the launch of Badminton Canada's new LTAD program called Pathways. Pathways’ mission is to change how people engage with the sport across Canada, with the end goal of developing the next Canadian Olympic Champion. Students were tasked with developing proposals which would help setup the organization to effectively market the program to the masses.
 
 ### Title Sponsor
 
